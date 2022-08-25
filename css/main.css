@@ -327,7 +327,7 @@
     align-items: center;
     font-family: 'HelveticaNeueCyr';
     font-weight: 700;
-    font-size: 40px;
+    font-size: 38px;
     padding: 10px 10px 30px 10px;
 }
 
@@ -411,6 +411,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
 .puls {
@@ -775,6 +776,7 @@
     line-height: 1em;
     color: #217A73;
     position: relative;
+    z-index: 2;
 }
 
 .Line_wrapper1 {
@@ -1347,6 +1349,7 @@
 
 
 }
+
 .contact-maps{
     margin-bottom: 100px;
     margin-top: 100px;
@@ -1354,6 +1357,7 @@
 
 /* .banner__index__button a:hover{
 } */
+
 
 .banner__index__icon--text {
     /* position: relative; */
@@ -1712,38 +1716,47 @@
 }
 
 .lastname:hover {
-    border: 1px solid #FF8888;
     transition: 0.25s;
+    border: 1px solid #03bdae;
+
 }
 
 .email:hover {
-    border: 1px solid #FF8888;
     transition: 0.25s;
+    border: 1px solid #03bdae;
+
 }
 
 .phone:hover {
-    border: 1px solid #FF8888;
     transition: 0.25s;
+    border: 1px solid #03bdae;
+
 }
 
+
 .interested:hover {
-    border: 1px solid #FF8888;
     transition: 0.25s;
+    border: 1px solid #03bdae;
+
 }
 
 .select:hover {
-    border: 1px solid #FF8888;
     transition: 0.25s;
+    border: 1px solid #03bdae;
+
 }
 
+
 .project:hover {
-    border: 1px solid #FF8888;
     transition: 0.25s;
+    border: 1px solid #03bdae;
+
 }
 
 .name:hover {
-    border: 1px solid #FF8888;
     transition: 0.25s;
+    border: 1px solid #03bdae;
+
 }
 
 textarea::placeholder {
@@ -1754,11 +1767,41 @@ input::placeholder {
     color: #C9C9C9;
 }
 
+input{
+    outline: none;
+}
+
+textarea{
+    outline: none;
+}
+
+select{
+    color: #C9C9C9;
+    outline: none;
+
+    
+}
+
 .banner__index__email a {
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
     text-align: center;
+}
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    color: white;
+}
+.banner__index__name select{
+    background: url(../img/Line3.svg) no-repeat right 22px center;
+    color: #C9C9C9;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
 }
 
 .btn-wrapper {
@@ -1868,7 +1911,7 @@ input::placeholder {
 .footer-important a {
     font-size: 16px;
     line-height: 8px;
-    color: #8a8a8a;
+    color: black;
     padding: 0 0 13px 0;
 }
 
@@ -1893,7 +1936,7 @@ input::placeholder {
 .footer-futured a {
     font-size: 16px;
     line-height: 8px;
-    color: #8a8a8a;
+    color: black;
     padding: 0 0 13px 0;
 }
 
@@ -1948,7 +1991,7 @@ input::placeholder {
 
 .sub-footer {
     width: 100%;
-    height: 48px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
