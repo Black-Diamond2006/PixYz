@@ -1113,9 +1113,9 @@
 
 .banner__index__3_content1:hover {
     background: #49d6cb;
-    transition: 1s;
+    transition: 0,25s;
 
-    
+
 }
 
 .banner__index__3_content1-icon path {
@@ -1127,11 +1127,11 @@
 .banner__index__3_content1:hover path {
     color: #49d6cb;
     fill: #49d6cb;
-    transition: 1s;
+    transition: 0,25s;
 }
 
 .banner__index__3_content1:hover .circle {
-    transition: 1s;
+    transition: 0,25s;
     background: white;
 }
 
@@ -1142,13 +1142,13 @@
 
 .banner__index__3_content1:hover p {
     color: white;
-    transition: 1s;
+    transition: 0,25s;
 
 }
 
 .banner__index__3_content1:hover a {
     color: white;
-    transition: 1s;
+    transition: 0,25s;
 
 }
 
