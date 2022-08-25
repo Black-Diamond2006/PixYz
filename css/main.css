@@ -1794,7 +1794,7 @@ option {
     white-space: nowrap;
     min-height: 1.2em;
     padding: 0px 2px 1px;
-    color: black;
+    color: #49d6cb;
 }
 .banner__index__name select{
     background: url(../img/Line3.svg) no-repeat right 22px center;
