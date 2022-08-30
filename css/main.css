@@ -1893,6 +1893,7 @@ option {
     margin: 0;
     width: 216px;
     height: 36px;
+    cursor: pointer;
 }
 
 .footer-important {
@@ -1990,6 +1991,7 @@ option {
 .footer-icons img { 
     width: 26px;
     padding: 0 0 29px 0;
+    cursor: pointer;
 
 }
 
