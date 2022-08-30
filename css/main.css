@@ -1976,6 +1976,7 @@ option {
     /* padding: 0 0 13px 0; */
     margin-left: 59px;
     color: #757575;
+    cursor: pointer;
 }
 
 .footer-icons {
