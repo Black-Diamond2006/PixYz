@@ -695,7 +695,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 44px;
-    width: 1396px;
     position: relative;
 
     /* align-items: center; */
@@ -1034,9 +1033,11 @@
     padding: 61px 0 0 14px;
     /* border: 2px solid red; */
     line-height: 1em;
+    flex-wrap: wrap;
     background: #F4F6FC;
     text-align: center;
     z-index: -10;
+
 }
 .banner__index3{
     display: flex;
@@ -2372,6 +2373,33 @@ font-size: 20px;
 
 /* -------------------------------------------------Responsive--------------------------------------------------------- */
 
+
+@media (max-width: 1496px){
+    .Line_wrapper3{
+        top: -150%;
+    }
+}
+@media (max-width: 1402px){
+    .banner__index__img{
+        display: none;
+    }
+    .banner__index__email{
+        width:884px;
+    }
+    .banner__index--2 p{
+        width: 972px;
+    }
+    .titles-wrapper p{
+        width: 972px;
+
+    }
+}
+@media (max-width: 1340px){
+    .circle-content1-wrapper img{
+        display: none;
+    }
+}
+
 @media (max-width: 1200px) {
     .header-img-wrapper img {
         width: 400px;
@@ -2405,6 +2433,7 @@ font-size: 20px;
     }
 
     .footer-futured {
+
         display: flex;
         margin: 0;
         flex-direction: column;
@@ -2427,14 +2456,37 @@ font-size: 20px;
     .banner__index__3-content {
         margin-right: 18px;
             display: grid;
-            width: 1150px;
             grid-template-columns: repeat(2,1fr);
     }
     .banner__aboutus--text p {
         width: 1184px;
 
     }
+    .banner__index--2 p {
+        width: 719px;
+    }
 }
+@media (max-width: 1129px) {
+    .Line_wrapper3{
+        display: none;
+    }
+    .Line_wrapper5 img{
+        display: none;
+    }
+    .Line_wrapper4 img{
+        display: none;
+    }
+    .point_wrapper img{
+        display: none;
+    }
+    .Line_wrapper2 img{
+        display: none;
+    }
+    .Line_wrapper1 img{
+        display: none;
+    }
+}
+
 
 @media (max-width: 992px) {
     .navbar-wrapper {
@@ -2443,7 +2495,6 @@ font-size: 20px;
 
     } 
     .banner__index__3-content{
-        width: 954px;
     }
     .banner__aboutus--text p {
         width: 931px;
@@ -2455,7 +2506,9 @@ font-size: 20px;
         width: 100%;
         z-index: 111111;
     }
-
+    .quote_1{
+        display: none;
+    }
     .toggle-menu {
         right: 100px;
     }
@@ -2581,8 +2634,81 @@ font-size: 20px;
     .banner__index__3_content2 p {
         text-align: center;
     }
+    @media (max-width: 916px) {
+    
+        .banner__index__name {
+            width: 801px;
+            margin: 24px 10px 10px 59px;
+        }
+    }
 }
+@media (max-width: 868px) {
+    .lastname{
+        margin: 0;
+        width: 204px;
 
+    }
+    .banner__home2 img{
+        display: none;
+    }
+    .banner__home2{
+        gap: 0px;
+
+    }
+    .phone{
+        margin: 0;
+        width: 204px;
+
+    }
+    .select{
+        margin: 0;
+        width: 204px;
+
+    }
+    .name{
+        width: 175px;
+    }
+    .email{
+        width: 175px;
+        
+    }
+    .interested{
+        width: 175px;
+
+    }
+
+    .project{
+        width: 383px;
+    }
+    .banner__index__email{
+        width: 505px;
+    }
+    .banner__index__name{
+        width: 370px;
+    }
+    .quote_2{
+        display: none;
+    }
+    .main-wrapper{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .banner__index p{
+        font-size: 14px;
+    }
+    .titles-wrapper p{
+        width: 548px;
+    }
+    .banner__index__name {
+        width: 391px;
+        height: 339px;
+        /* border: 2px solid red; */
+        margin: 24px 10px 10px 55px;
+    }
+}
 @media (max-width: 768px) {
     .box-title {
         position: absolute;
@@ -2695,8 +2821,6 @@ font-size: 20px;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 16px;
-        width: 542px;
-        margin-left: 95px;
     }
     .quote_2{
         display: none;
@@ -2729,10 +2853,11 @@ font-size: 20px;
     }
 
     .project {
-        width: 495px;
+        width: 464px;
     }
-    .banner__index__name{
-        width: 565px;
+    .banner__index__name {
+        width: 500px;
+        margin-left: 45px;
     }
     .banner__home2 p{
         width: 550px;
@@ -2817,6 +2942,21 @@ font-size: 20px;
 
 }
 
+@media(max-width: 610px) {
+    .banner__index--2 p{
+        width: 487px;
+    }
+    
+}
+@media(max-width: 690px) {
+    .titles-wrapper p{
+        width:490px;
+    }
+    .banner__index--2 p{
+        width: 487px;
+    }
+    
+}
 @media(max-width: 568px) {
     .main-order-wrapper {
         margin-left: -20px;
@@ -2987,6 +3127,57 @@ font-size: 20px;
         grid-template-columns: repeat(3 1fr);
     }
 }
+@media(max-width: 530px){
+    .titles-wrapper p {
+        width: 416px;
+    }
+    .banner__index__name {
+        width: 328px;
+        margin: 24px 10px 10px 27px;
+    }
+    .banner__index__3-content {
+        margin-left: 0px;
+    }
+    .name{
+        width: 355px;
+        margin: 10px 0 0 0;
+
+    }
+    .lastname{
+        width: 355px;
+        margin: 10px 0 0 0;
+
+    }
+    .email{
+        width: 355px;
+        margin: 10px 0 0 0;
+
+    }   
+    .select{
+        width: 355px;
+        margin: 10px 0 0 0;
+
+    }    
+    .phone{
+        width: 355px;
+        margin: 10px 0 0 0;
+    }
+    .interested {
+        width: 355px;
+        margin: 10px 0 0 0;
+
+    }
+    .project{
+        width: 355px;
+        margin: 10px 0 0 0;
+
+    }
+    .banner__index__email {
+        width: 413px;
+        height: 847px;
+    }
+}
+@media
 
  /* -------------------------------------------------Responsive-End----------------------------------------------------------- */
 
