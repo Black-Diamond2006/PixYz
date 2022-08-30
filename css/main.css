@@ -1635,6 +1635,15 @@
     margin-left: 52px;
     color: white;
 }
+.p3:hover{
+    color: #147069;
+}
+.p1:hover{
+    color: #147069;
+}
+.p2:hover{
+    color: #147069;
+}
 
 .p3 {
     /* margin: 30px; */
@@ -1951,7 +1960,12 @@ option {
     color: black;
     padding: 0 0 13px 0;
 }
-
+.footer-futured a:hover{
+    color: #757575;
+}
+.footer-important a:hover{
+    color: #757575;
+}
 .footer-contact {
     display: flex;
     margin: 0;
