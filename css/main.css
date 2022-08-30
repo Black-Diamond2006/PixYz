@@ -2494,8 +2494,8 @@ font-size: 20px;
         background: rgba(165, 165, 165, 0.173);
 
     } 
-    .banner__index__3-content{
-    }
+    /* .banner__index__3-content{
+    } */
     .banner__aboutus--text p {
         width: 931px;
 
@@ -3177,7 +3177,7 @@ font-size: 20px;
         height: 847px;
     }
 }
-@media
+/* @media */
 
  /* -------------------------------------------------Responsive-End----------------------------------------------------------- */
 
