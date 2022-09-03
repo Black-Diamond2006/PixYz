@@ -1,0 +1,14 @@
+@media(max-width: 568px) {
+    .navbar{
+        margin-left: 0;
+    }
+    .banner__index__3_content2{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 415px){
+.banner__index__3-content {
+    width: 342px;
+    margin-left: 10px;
+}
+}

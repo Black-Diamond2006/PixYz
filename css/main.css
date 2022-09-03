@@ -1961,12 +1961,15 @@ option {
     color: black;
     padding: 0 0 13px 0;
 }
+
 .footer-futured a:hover{
     color: #757575;
 }
+
 .footer-important a:hover{
     color: #757575;
 }
+
 .footer-contact {
     display: flex;
     margin: 0;
@@ -2373,7 +2376,6 @@ font-size: 20px;
 
 /* -------------------------------------------------Responsive--------------------------------------------------------- */
 
-
 @media (max-width: 1496px){
     .Line_wrapper3{
         top: -150%;
@@ -2399,7 +2401,6 @@ font-size: 20px;
         display: none;
     }
 }
-
 @media (max-width: 1200px) {
     .header-img-wrapper img {
         width: 400px;
@@ -2486,8 +2487,6 @@ font-size: 20px;
         display: none;
     }
 }
-
-
 @media (max-width: 992px) {
     .navbar-wrapper {
         position: fixed;
@@ -2709,7 +2708,7 @@ font-size: 20px;
         margin: 24px 10px 10px 55px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .box-title {
         position: absolute;
         font-size: 16px;
@@ -2941,7 +2940,6 @@ font-size: 20px;
     }
 
 }
-
 @media(max-width: 610px) {
     .banner__index--2 p{
         width: 487px;
@@ -2979,13 +2977,30 @@ font-size: 20px;
     }
     .aboutus-title h1{
         width: 411px;
+        line-height: 45px;
+    }
+    
+    .titles-wrapper h1{
+        line-height: 45px;
+
     }
     .banner__home2 {
     gap: 0px; 
     }
+    .titles-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .banner__index__icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .toggle-menu {
         
-        right: 50px;
+        right: 4px;
     }
     .name {
         width: 230px;
@@ -3221,12 +3236,19 @@ font-size: 20px;
     }
     .banner__index__3-content{
         width: 100px;
+        margin-left: 10px;
     }
     .banner__index--2 p {
         width: 301px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .banner__index3 p{
+        font-size: 16px;
     }
     .titles-wrapper p {
         width: 292px;
+        font-size: 16px;
     }
     .header-img-wrapper img {
         width: 296px;
@@ -3248,10 +3270,12 @@ font-size: 20px;
     }
     .aboutus-title h1 {
         width: 341px;
+        line-height: 40px;
     }
     .titles-wrapper h1 {
     width:288px;
-        
+        line-height: 40px;
+        font-size: 39px;
     }   
     .banner__index__email {
     width: 322px;
@@ -3261,6 +3285,13 @@ font-size: 20px;
         width: 238px;
         margin: 24px 10px 10px 27px;
     }
+    .banner__index__icons{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .banner__index__coment p{
+        font-size: 16px;
+    }
 }
- /* -------------------------------------------------Responsive-End----------------------------------------------------------- */
-
+ /*-------------------------------------------------Responsive-End----------------------------------------------------------- */
