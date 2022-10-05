@@ -30,3 +30,4 @@ toggleButton.addEventListener('click', function () {
 });
 
 
+var togMenu = document.queryCommandValue
