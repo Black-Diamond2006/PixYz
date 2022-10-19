@@ -29,5 +29,4 @@ toggleButton.addEventListener('click', function () {
 	navBar.classList.toggle('toggle');
 });
 
-
 var togMenu = document.queryCommandValue
