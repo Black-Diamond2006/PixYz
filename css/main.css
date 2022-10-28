@@ -1,4 +1,4 @@
-@import 'fonts.css';
+@import 'fonts.css';  
 
 
 * {
@@ -134,7 +134,12 @@
 .nav-link:hover::before {
     transform: scaleX(1);
 }
-
+.language-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 /*---------------------------------------------------  Burger End----------------------------------------------------------- */
 .navbar {
     width: 100%;
@@ -2386,6 +2391,31 @@ font-size: 20px;
 }
 
 /* -------------------------------------------------Responsive--------------------------------------------------------- */
+
+
+
+
+
+/* -------------------------------------------------Swiper------------------------------------------------------------------- */
+.swiper{
+
+}
+.swiper-slider {
+}
+
+.sviper-button-next, .swiper-rtl ,.swiper-button-prev{
+    right: 140px !important;
+    left: auto;
+}
+.sviper-button-next, .swiper-rtl ,.swiper-button-prev{
+    left: 140px !important;
+    right: auto;
+}
+/* -------------------------------------------------Swiper------------------------------------------------------------------- */
+
+
+
+
 
 @media (max-width: 1496px){
     .Line_wrapper3{

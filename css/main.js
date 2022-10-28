@@ -30,3 +30,21 @@ toggleButton.addEventListener('click', function () {
 });
 
 var togMenu = document.queryCommandValue
+
+
+
+
+
+var swiper = new Swiper(".mySwiper", {
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".swiper-button-naxt",
+    prevEl: ".swiper-button-prev",
+  },
+  pogination: {
+    el:".swiper-pagination",
+  },
+  mousewhell: true,
+  keyboard: true,
+  lup: true,
+});
